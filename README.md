@@ -44,7 +44,7 @@ If you are under Windows, add `-lconio` (from from Borland ( http://conio.source
 * Email: rcb@beco.cc
 * Home: (http://www.beco.cc)
 * Date: 2017-05-04
-* Copyright (c) 2009-2019 GNU GPL v2
+* Copyright (c) 2009-2017 GNU GPL v2
 
 This program is free software: you can redistribute it
 and/or modify it under the terms of the
