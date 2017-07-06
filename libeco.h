@@ -49,10 +49,9 @@
   int kbwait(long usec);
   /* retorna verdadeiro/falso se existir um caracter no buffer a ser lido (testa com select) */
   int kbhit(void);
-  /* le apenas os caracteres na string s. Imprime o numero turn */
-  //char getfrom(char *s, int turn);
 #endif
 
+/* le apenas os caracteres na string s. */
 char getfrom(char *s);
 /* muda um valor x1 no intervalo [min1, max1] para outro proporcional no intervalo [min2, max2] */
 float mudaintervalo(float min1, float max1, float min2, float max2, float x1);
@@ -293,7 +292,7 @@ int pollinput (void)
 #endif
 }
 
-/* char getfrom(char *s, int turn) */
+/* le apenas os caracteres na string s. */
 char getfrom(char *s)
 {
     char r;
