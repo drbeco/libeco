@@ -1,5 +1,5 @@
 /*--------------------------------------------
- File: libeco.h
+ File: libeco.h v0.1.090902.000301
 
  By Ruben Carlo Benante (dr.beco@gmail.com)
  2009-08-27
