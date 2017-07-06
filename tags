@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+TAM	libecoteste.c	46;"	d	file:
+getch	libeco.h	/^  int getch(void)$/;"	f
+getfrom	libeco.h	/^char getfrom(char *s)$/;"	f
+kbbuf	libeco.h	/^  int kbbuf(void)$/;"	f
+kbhit	libeco.h	/^  int kbhit(void)$/;"	f
+kbwait	libeco.h	/^  int kbwait(long usec)$/;"	f
+main	libecoteste.c	/^int main(int argc, char *argv[])$/;"	f
+min	libeco.h	/^int min(int a, int b)$/;"	f
+mudaintervalo	libeco.h	/^float mudaintervalo(float min1, float max1, float min2, float max2, float x1)$/;"	f
+pollinput	libeco.h	/^int pollinput (void)$/;"	f
+rand_minmax	libeco.h	/^int rand_minmax(int min, int max)$/;"	f
