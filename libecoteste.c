@@ -48,16 +48,12 @@
 int main(int argc, char *argv[])
 {
 
-    int a, b, i, novo=0;
+    int a, i, novo=0;
     char c;
     int amax, amin;
     double x2;
-    int meuint;
-    float meufloat;
-    double meudouble;
 
-    int fica=2, die, ydie=1, last=0;
-    char *s;
+    int last=0;
     char str[TAM];
     clock_t clock1, clock2, diffclock;
 
@@ -81,7 +77,7 @@ int main(int argc, char *argv[])
         printf("Tecle algo no tempo de: ");
         while(diffclock<10)
         {
-            if(a=kbhit()) /* kbbuff() deprecated */
+            if((a=kbhit())) /* kbbuff() deprecated */
                 break;
             clock2 = clock() / CLOCKS_PER_SEC;
             diffclock = clock2 - clock1;
