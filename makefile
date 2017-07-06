@@ -169,8 +169,8 @@ clean :
 
 # Gera arquivo de indice tags com funcoes de todos fontes em C
 tags :
-	ctags libeco*
-	ctags -x libeco* | less -F
+	ctags libeco.h libeco.c
+	ctags -x libeco.h libeco.c | less -F
 
 #* ------------------------------------------------------------------- *
 #* makefile config for Vim modeline                                    *
